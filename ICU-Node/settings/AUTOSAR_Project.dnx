@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<settings>
+    <LmiFtdiDriver>
+        <LMIFTDIserialNo>MFG-TEST</LMIFTDIserialNo>
+        <LMIFTDIfoundProbes />
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LmiFtdiResetStyle>0</LmiFtdiResetStyle>
+        <LmiFtdiResetStrategy>0</LmiFtdiResetStrategy>
+    </LmiFtdiDriver>
+    <PlDriver>
+        <FirstRun>0</FirstRun>
+        <MemConfigValue>C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CONFIG\debugger\TexasInstruments\TM4C123GH6PM.ddf</MemConfigValue>
+    </PlDriver>
+    <DebugChecksum>
+        <Checksum>1162928779</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <ArmDriver>
+        <EnableCache>0</EnableCache>
+    </ArmDriver>
+    <struct_types>
+        <Fmt0>tCANMsgObject-ui32Flags	4	0</Fmt0>
+        <Fmt1>tCANMsgObject-ui32MsgID	4	0</Fmt1>
+        <Fmt2>tCANMsgObject-ui32MsgIDMask	4	0</Fmt2>
+    </struct_types>
+    <array_types>
+        <Fmt0>uint8_t[8]	3	0</Fmt0>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}1:eStatusReg	4	0</Fmt0>
+        <Fmt1>{W}1:g_ui32ErrFlag	4	0</Fmt1>
+        <Fmt2>{W}1:ui32Status	4	0</Fmt2>
+        <Fmt3>{W}42:clockFreq	3	0</Fmt3>
+    </watch_formats>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.90.3" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp1>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.135.7" 0 0 1 "" 0 "" 0</Bp1>
+        <Bp2>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.90.3" 0 0 1 "" 0 "" 0</Bp2>
+        <Bp3>_ 0 "EMUL_CODE" "{$PROJ_DIR$\ecual\ultrasonic\ultrasonic.c}.74.5" 0 0 1 "" 0 "" 0</Bp3>
+        <Bp4>_ 0 "EMUL_CODE" "{$PROJ_DIR$\ecual\ultrasonic\ultrasonic.c}.58.9" 0 0 1 "" 0 "" 0</Bp4>
+        <Bp5>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.51.2" 0 0 1 "" 0 "" 0</Bp5>
+        <Bp6>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.90.3" 0 0 1 "" 0 "" 0</Bp6>
+        <Bp7>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.90.3" 0 0 1 "" 0 "" 0</Bp7>
+        <Bp8>_ 0 "EMUL_CODE" "{$PROJ_DIR$\ecual\CanDriver\CanDriver.c}.46.2" 0 0 1 "" 0 "" 0</Bp8>
+        <Bp9>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.135.7" 0 0 1 "" 0 "" 0</Bp9>
+        <Bp10>_ 1 "EMUL_CODE" "{$PROJ_DIR$\ecual\CanDriver\CanDriver.c}.374.9" 0 0 1 "" 0 "" 0</Bp10>
+        <Bp11>_ 1 "EMUL_CODE" "{$PROJ_DIR$\ecual\CanDriver\CanDriver.c}.389.9" 0 0 1 "" 0 "" 0</Bp11>
+        <Bp12>_ 1 "EMUL_CODE" "{$PROJ_DIR$\ecual\CanDriver\CanDriver.c}.359.9" 0 0 1 "" 0 "" 0</Bp12>
+        <Bp13>_ 1 "EMUL_CODE" "{$PROJ_DIR$\ecual\CanDriver\CanDriver.c}.344.9" 0 0 1 "" 0 "" 0</Bp13>
+        <Bp14>_ 1 "EMUL_CODE" "{$PROJ_DIR$\ecual\CanDriver\CanDriver.c}.329.9" 0 0 1 "" 0 "" 0</Bp14>
+        <Bp15>_ 0 "EMUL_CODE" "{$PROJ_DIR$\ecual\CanDriver\CanDriver.c}.314.9" 0 0 1 "" 0 "" 0</Bp15>
+        <Bp16>_ 0 "EMUL_CODE" "{$PROJ_DIR$\ecual\CanDriver\CanDriver.c}.215.5" 0 0 1 "" 0 "" 0</Bp16>
+        <Bp17>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.114.15" 0 0 1 "" 0 "" 0</Bp17>
+        <Count>18</Count>
+    </Breakpoints2>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <Aliases>
+        <Count>0</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+</settings>
